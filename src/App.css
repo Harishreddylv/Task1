@@ -30,3 +30,138 @@
     transform: rotate(360deg);
   }
 }
+
+/* --- HeaderComp styles starts here ---- */
+.mainHeader{
+  background-color:#536f7a;
+  color:white;
+  height:50px;
+  width:100%;
+}
+.mainHeader .tasklogo{
+  float: left;
+    padding: 10px;
+    margin-left: 20px;
+    padding-top: 13px;
+}
+.mainHeader .nav_menus{
+  display:inline-block;
+  list-style-type:none;
+  float:left;
+  padding-left:0px;
+}
+.mainHeader .nav_menus > li{
+  display:inline-block;
+  list-style-type:none;
+  padding-left:10px;
+}
+
+/* --- HeaderComp styles ends here ---- */
+.maincontainer{
+  height:calc(100% - 50px);
+  width:100%;
+  background-color:white;
+  color:gray;
+}
+.subcontainer{
+  width:100%;
+  height:auto;
+}
+.submenu{
+  background-color: #f9f9f9;
+  height: 30px;
+  text-align: left;
+  font-size: 13px;
+  padding-left: 30px;
+  padding-top: 15px;
+}
+.subviews{
+  width:100%;
+  
+  box-sizing: border-box;
+}
+.leftcontainer{
+  float:left;
+  width:35%;
+  box-sizing: border-box;
+}
+.imgclass{
+  border-radius:50%;
+  margin-top:5%;
+}
+.rightcontainer{
+  float: left;
+  width: 65%;
+  box-sizing: border-box;
+  height: auto;
+  text-align: left;
+  padding-top: 40px;
+}
+.detailview{
+  width: 100%;
+  float: left;
+  /* border-bottom: 1px solid lightgrey; */
+  padding-bottom: 15px;
+  width:80%;
+}
+.detailleft{
+  float: left;
+  width: 80%;
+}
+.detailright{
+  float: right;
+  width: 20%;
+  
+}
+.alignrows{
+  margin-top:20px
+}
+.name{
+  font-weight: bold;
+  color:black;
+}
+.userstyle{
+  font-size:13px;
+}
+.userfillstyle{
+  font-size:13px;
+  color:black;
+}
+.btn-style{
+  background-color: #4daf76;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid #4daf76;
+    float:right;
+}
+.footerview{
+  width: 80%;
+  float: left;
+  height: auto;
+  border-top: 1px solid lightgrey;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+.footerdiv{
+  width: 175px;
+  height: 60px;
+  float: left;
+  border: 1px solid black;
+  margin: 10px;
+}
+.footlogo{
+  float:left;
+  background-color: gray;
+  margin-top: 17px;
+  margin-left: 20px;
+  border-radius: 10px;
+}
+.imgtxt{
+  padding-left: 10px;
+  float: left;
+  padding-top: 4px;
+  font-size:13px;
+}
